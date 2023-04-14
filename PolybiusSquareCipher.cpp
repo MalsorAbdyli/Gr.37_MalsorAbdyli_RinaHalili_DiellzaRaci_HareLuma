@@ -13,6 +13,13 @@ void polybiusCipher(string s) {
             rreshti = ceil((s[i] - 'A') / 5) + 1;
             kolona = ((s[i] - 'A') % 5) + 1;
         }
+
+        else {
+
+            rreshti = ceil((s[i] - 'a') / 5) + 1;
+            kolona = ((s[i] - 'a') % 5) + 1;
+        }
+        
     }
 }
 
