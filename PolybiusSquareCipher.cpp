@@ -48,6 +48,11 @@ void polybiusCipher(string s) {
             rreshti = ceil((s[i] - 'a') / 5) + 1;
             kolona = ((s[i] - 'a') % 5) + 1;
         }
+
+        if (tolower(s[i]) == 'k') {
+            rreshti = rreshti - 1;
+            kolona = 5 - kolona + 1;
+        }
         
     }
 }
