@@ -54,6 +54,8 @@ void polybiusCipher(string s) {
 
 int main(){
 
+    polybiusSquare();
+    cout << endl;
 
     return 0;
 }
