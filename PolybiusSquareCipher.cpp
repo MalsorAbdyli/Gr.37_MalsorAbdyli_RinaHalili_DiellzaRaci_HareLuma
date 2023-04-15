@@ -53,9 +53,21 @@ void polybiusCipher(string s) {
             rreshti = rreshti - 1;
             kolona = 5 - kolona + 1;
         }
-        
+
+        else if (tolower(s[i]) >= 'j') {
+            if (kolona == 1) {
+                kolona = 6;
+                rreshti = rreshti - 1;
+            }
+            kolona = kolona - 1;
+        }
+        cout << rreshti << kolona;
     }
+
+    cout << endl;
 }
+        
+    
 
 int main(){
 
