@@ -42,7 +42,7 @@ void polybiusCipher(string s) {
 
         //nëse karakteri nuk është pjesë e alfabetit
         if (!isalpha(s[i])) {
-            cout <<"\nKarakter i panjohur: " << s[i]<<endl;
+            cout <<"\nKarakter i panjohur: " << s[i]<<"\n";
             continue;
         }
         
