@@ -39,6 +39,12 @@ void polybiusCipher(string s) {
 
     // konvertimi i çdo karakteri në kod të enkriptuar
     for (int i = 0; s[i]; i++) {
+
+        //nëse karakteri nuk është pjesë e alfabetit
+        if (!isalpha(s[i])) {
+            cout <<"\nKarakter i panjohur: " << s[i]<<endl;
+            continue;
+        }
         
         // nëse karakteri është me shkronjë të madhe
         if (isupper(s[i])) {
