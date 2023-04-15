@@ -71,8 +71,15 @@ void polybiusCipher(string s) {
 
 int main(){
 
+    string s;
+
     polybiusSquare();
     cout << endl;
+
+    cout << "Jepni plaintext-in: ";
+    cin >> s;
+
+    polybiusCipher(s);
 
     return 0;
 }
