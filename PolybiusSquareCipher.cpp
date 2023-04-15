@@ -16,6 +16,20 @@ char tabela[RRESHTAT][KOLONAT] = {
     {'v', 'w', 'x', 'y', 'z'}
 };
 
+void polybiusSquare() {
+
+    cout << "  1 2 3 4 5" << endl;
+
+    for (int i = 0; i < RRESHTAT; i++) {
+        cout << i + 1 << " ";
+
+        for (int j = 0; j < KOLONAT; j++) {
+            cout << tabela[i][j] << " ";
+        }
+        cout << endl;
+    }
+}
+
 
 
 void polybiusCipher(string s) {
