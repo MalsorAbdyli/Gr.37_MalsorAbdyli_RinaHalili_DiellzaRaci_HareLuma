@@ -12,7 +12,7 @@ Kur e zgjidhim  Polybius Square Cipher,marresit i jepet një mesazh i koduar dhe
 Për të deshifruar mesazhin, marresi do të duhet të përdorë tabelën.
 Çdo shkronjë përbëhet nga dy numra, i pari është rreshti në të cilin ndodhet dhe i dyti është kolona në të cilën ndodhet.
 
-Anetaret e grupit: Malsor Abdyli
-                   Diellza Raci
-                   Rina HAlili 
-                   Hare Luma
+Anetaret e grupit: Malsor Abdyli,
+                   Diellza Raci,
+                   Rina Halili, 
+                   Hare Luma.
